@@ -86,7 +86,7 @@ EXTRA_FOD_ANIMATIONS := true
 
 # Lineage Specific perms
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.fingerprint.xml
 
 # HIDL
 PRODUCT_PACKAGES += \
